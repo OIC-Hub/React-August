@@ -1,7 +1,9 @@
 function Navbar(){
     return(
         <>
-            <h1>Logo</h1>
+          <div className="w-[100%] h-[100px] bg-gray-200 ">
+              <h1>Logo</h1>
+          </div>
         </>
     )
 }

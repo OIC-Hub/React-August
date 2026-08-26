@@ -1,7 +1,8 @@
 function Props(prop){
     return(
         <>
-        <h1>{prop.name} / {prop.age} / {prop.job}</h1>
+        <img src={prop.avatar} alt="" width={"50px"} />
+        <p>{prop.name} / {prop.role}</p>
         </>
     )
 }
