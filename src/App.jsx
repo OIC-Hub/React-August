@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import Props from "./components/Props"
 import Card from "./components/Card"
-
+import State from "./components/State"
 function App(){
   
 const team = [
@@ -32,14 +32,16 @@ const team = [
     <>
     <Navbar/>
       <h1>Home Page</h1>
-         <div className="cards">
+         {/* <div className="cards">
     
       {team.map((member) => (
        <Card><Props name={member.name} avatar={member.avatar} role={member.role}/></Card>
 
       ))}
 
-     </div>
+     </div> */}
+
+     <State/>
 
 
     <Footer/>
