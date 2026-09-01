@@ -3,6 +3,7 @@ import Footer from "./components/Footer"
 import Props from "./components/Props"
 import Card from "./components/Card"
 import State from "./components/State"
+import Toggle from "./components/Toogle"
 function App(){
   
 const team = [
@@ -42,7 +43,7 @@ const team = [
      </div> */}
 
      <State/>
-
+      <Toggle/>
 
     <Footer/>
     </>
