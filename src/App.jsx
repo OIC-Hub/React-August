@@ -5,6 +5,7 @@ import Card from "./components/Card"
 import State from "./components/State"
 import Toggle from "./components/Toogle"
 import Effect from "./components/Effect"
+import Fetch from "./components/Fetch"
 function App(){
   
 const team = [
@@ -46,7 +47,8 @@ const team = [
      {/* <State/> */}
       {/* <Toggle/> */}
 
-      <Effect/>
+      {/* <Effect/> */}
+      <Fetch/>
 
     <Footer/>
     </>
